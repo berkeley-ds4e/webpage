@@ -1,5 +1,4 @@
 theme = "hugo-now-ui"
-baseURL = "conservation-gym/"
 languageCode = "en-us"
 title = "DS4E"
 googleAnalytics = "UA-179064457-1"
