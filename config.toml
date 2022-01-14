@@ -10,11 +10,7 @@ publishDir = "docs/"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    identifier = "twitter"
-    url = "https://twitter.com/berkeley-ds4e"
-    pre = "<i class='fa fa-twitter'></i>"
-    weight = 1
+
 [[menu.main]]
     identifier = "github"
     url = "https://github.com/berkeley-ds4e"
@@ -26,24 +22,6 @@ publishDir = "docs/"
     url = "mailto:berkeley.edu"
     pre = "<i class='now-ui-icons ui-1_send'></i>"
     weight = 3
-
-[[menu.footer]]
-    identifier = "twitter"
-    pre = "<i class='fa fa-twitter'></i>"
-    url = "https://twitter.com/"
-    weight = 1
-[[menu.footer]]
-    identifier = "github"
-    pre = "<i class='fa fa-github'></i>"
-    url = "https://github.com/berkeley-ds4e"
-    weight = 2
-[[menu.footer]]
-    identifier = "copyright"
-    name = "MIT"
-    pre = "<i class='fa fa-balance-scale'></i>"
-    url = "https://spdx.org/licenses/MIT"
-    weight = 3
-
 
 [params]
     background = "img/parrot.jpg"
