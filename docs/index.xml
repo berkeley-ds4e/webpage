@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reinforcement Learning for Conservation on RL for Conservation</title>
-    <link>conservation-gym/</link>
-    <description>Recent content in Reinforcement Learning for Conservation on RL for Conservation</description>
+    <title>The Eric and Wendy Schmidt Center for Data Science and Environment at Berkeley on DS4E</title>
+    <link>/</link>
+    <description>Recent content in The Eric and Wendy Schmidt Center for Data Science and Environment at Berkeley on DS4E</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="conservation-gym/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
