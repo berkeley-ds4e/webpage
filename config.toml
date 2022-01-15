@@ -10,12 +10,7 @@ publishDir = "docs/"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-
-[[menu.main]]
-    identifier = "github"
-    url = "https://github.com/berkeley-ds4e"
-    pre = "<i class='fa fa-github'></i>"
-    weight = 2    
+  
 [[menu.main]]
     name = ""
     identifier = "email"
@@ -24,10 +19,16 @@ publishDir = "docs/"
     weight = 3
 
 [[menu.footer]]
-    name = ""
+    name = "Sign up"
     identifier = "email"
     url = "mailto:"
     pre = "<i class='now-ui-icons now-ui-icons ui-1_email-85'></i>"
+    weight = 2
+[[menu.footer]]
+    name = "UC Berkeley"
+    identifier = "location"
+    url = "https://berkeley.edu"
+    pre = "<i class='now-ui-icons location_pin'></i>"
     weight = 3
 
 
