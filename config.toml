@@ -19,9 +19,17 @@ publishDir = "docs/"
 [[menu.main]]
     name = ""
     identifier = "email"
-    url = "mailto:berkeley.edu"
-    pre = "<i class='now-ui-icons ui-1_send'></i>"
+    url = "mailto:"
+    pre = "<i class='now-ui-icons now-ui-icons ui-1_email-85'></i>"
     weight = 3
+
+[[menu.footer]]
+    name = ""
+    identifier = "email"
+    url = "mailto:"
+    pre = "<i class='now-ui-icons now-ui-icons ui-1_email-85'></i>"
+    weight = 3
+
 
 [params]
     background = "img/parrot.jpg"
