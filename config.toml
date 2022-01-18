@@ -19,9 +19,9 @@ publishDir = "docs/"
     weight = 3
 
 [[menu.footer]]
-    name = "Sign up"
+    name = "contact us"
     identifier = "email"
-    url = "mailto:"
+    url = "mailto:ds4e@berkeley.edu"
     pre = "<i class='now-ui-icons now-ui-icons ui-1_email-85'></i>"
     weight = 2
 [[menu.footer]]
@@ -35,7 +35,7 @@ publishDir = "docs/"
 [params]
     background = "img/parrot.jpg"
     tint = "blue"
-    custom_css = ["css/highlight.min.css"]
+    custom_css = ["css/highlight.min.css", "css/tweaks.css"]
     custom_js = []
     date_format = "Mon, Jan 2, 2006"
     description = "A website built through Hugo and blogdown."
