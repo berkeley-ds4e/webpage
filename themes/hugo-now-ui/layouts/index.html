@@ -1,5 +1,10 @@
 {{ define "title" }}
-<div class="container">
+<div class="container  content-right text-right">
+  <div class="card card-plain" style="width: 18rem;">
+    <div class="card-body">
+    <img src="{{.Params.logo }}" class="img-fluid rounded float-right text-right"></img>
+    </div>
+  </div>
   <div class="content-center">
     <h1 class="title">{{ .Title }}</h1>
     <div class="text-center">
