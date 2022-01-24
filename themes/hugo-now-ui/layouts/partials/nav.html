@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}" rel="tooltip" title="" data-placement="bottom" target="_blank">
-                    {{.Site.Title}}
+                   <img src="{{.Site.Params.logo}}" class="img-fluid rounded" style="max-width: 14rem;"></img> <!-- {{.Site.Title}} -->
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
