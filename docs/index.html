@@ -19,7 +19,7 @@
     <link href="/css/demo.css" rel="stylesheet" />
 
     <meta content="testing" name='dc:title'>
-  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/highlight.min.css"><link rel="stylesheet" href="/css/tweaks.css">
 </head>
 
 	<body class="landing-page sidebar-collapse">
@@ -41,17 +41,8 @@
               
                 
                 <li class="nav-item">
-                  <a class="nav-link" href="/https:/github.com/berkeley-ds4e" data-target="https://github.com/berkeley-ds4e">
-                    <i class='fa fa-github'></i>
-                    <span></span>
-                  </a>
-                </li>
-                
-              
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="/mailto:berkeley.edu" data-target="mailto:berkeley.edu">
-                    <i class='now-ui-icons ui-1_send'></i>
+                  <a class="nav-link" href="mailto:" data-target="mailto:">
+                    <i class='now-ui-icons now-ui-icons ui-1_email-85'></i>
                     <span></span>
                   </a>
                 </li>
@@ -90,32 +81,76 @@ science to create practical and scalable solutions to some of our planet's most 
      style="background-image: url('img/glacier.jpg'); background-color: rgba(50,50,50,.7); background-blend-mode: multiply;"
      id="page2">
   <div class="container">
-    <div class="card  card-plain text-white" style="width: 40rem;">
+    <div class="row">
+    <div class="card  card-plain text-white" >
       <div class="card-body">
         <h2 class="card-title">Mission</h2>
-      <p style="text-align: justify; text-justify: auto; font-size: 18px"> The Schmidt Center for Data Science and the Environment (DS4E) is a new partnership between
-        UC Berkeley's Department of Environmental Science, Policy, and Management at Rausser College
-        of Natural Resources and the Division of Computing, Data Science, and Society.
+      <p style="text-align: justify; text-justify: auto; font-size: 18px"> 
+        The Schmidt Center for Data Science and the Environment (DS4E) is a new partnership between
+        UC Berkeley's <a href="https://ourenvironment.berkeley.edu">Department of Environmental Science, Policy, and Management</a> 
+        and the <a href="https://data.berkeley.edu/">Division of Computing, Data Science, and Society</a>.
         The Center will combine the power of computing and environmental science with open science
         principles and a commitment to inclusivity - all towards the purpose of building tangible,
         replicable, and accessible solutions to problems compromising the health of our environment.
-        Researchers in the Center will co-create these solutions in direct partnership with those
+        Team members in the Center will co-create these solutions in direct partnership with those
         who hold the knowledge and expertise of their local needs and environmental context.
       </p>
       </div>
-    </div>    
-    <div class="card card-plain text-white" style="width: 40rem;">
-      <div class="card-body">
-
-      <h2 class="card-title">Join us</h2>
-      <p style="text-align: justify; text-justify: auto; font-size: 18px" class="card-text">We are hiring: research engineers, postdoctoral scholars, program managers, and other support staff.
-        Sign up to join our mailing list for hiring news.</p>
-      </div>
-
+    </div>  
+  </div>
+  <div class="row">
+    
+    <div class="card card-signup card-plain text-white">
+      <form class="form" method="" action="">
+        <div class="card-header text-center">
+          <h3 class="card-title title-up">Join Us</h3>      
+        </div>
+        <div class="card-body">
+          <p>We are hiring: research engineers, postdoctoral scholars, program managers, and other support staff.
+        Sign up to join our mailing list for hiring news</p>
+          <div class="input-group no-border">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="now-ui-icons users_circle-08"></i>
+              </span>
+            </div>
+            <input type="text" class="form-control" placeholder="First Name...">
+          </div>
+          <div class="input-group no-border">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="now-ui-icons text_caps-small"></i>
+              </span>
+            </div>
+            <input type="text" placeholder="Last Name..." class="form-control" />
+          </div>
+          <div class="input-group no-border">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="now-ui-icons ui-1_email-85"></i>
+              </span>
+            </div>
+            <input type="text" class="form-control" placeholder="Email...">
+          </div>
+           <div class="checkbox">
+            <input id="checkboxSignup" type="checkbox">
+              <label for="checkboxSignup">
+              I agree to join... 
+              </label>
+            </div>
+        </div>
+        <div class="card-footer text-center">
+          <a href="#pablo" class="btn btn-neutral btn-round btn-lg">Get Started</a>
+        </div>
+      </form>
     </div>
+    </div>
+
+
+
+
   </div>
 </div>
-
 
 
 
@@ -125,6 +160,14 @@ science to create practical and scalable solutions to some of our planet's most 
     <nav>
 	    <ul>
 	    
+        <li>
+          <a href="mailto:ds4e@berkeley.edu"><i class='now-ui-icons now-ui-icons ui-1_email-85'></i> contact us</a>
+        </li>
+      
+        <li>
+          <a href="https://berkeley.edu"><i class='now-ui-icons location_pin'></i> UC Berkeley</a>
+        </li>
+      
       </ul>
     </nav>
   </div>

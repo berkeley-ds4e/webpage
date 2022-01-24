@@ -10,13 +10,6 @@ publishDir = "docs/"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-  
-[[menu.main]]
-    name = ""
-    identifier = "email"
-    url = "mailto:"
-    pre = "<i class='now-ui-icons now-ui-icons ui-1_email-85'></i>"
-    weight = 3
 
 [[menu.footer]]
     name = "contact us"
@@ -30,7 +23,6 @@ publishDir = "docs/"
     url = "https://berkeley.edu"
     pre = "<i class='now-ui-icons location_pin'></i>"
     weight = 3
-
 
 [params]
     background = "img/parrot.jpg"
