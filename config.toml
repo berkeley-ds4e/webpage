@@ -31,7 +31,7 @@ publishDir = "docs/"
     custom_js = []
     date_format = "Mon, Jan 2, 2006"
     description = "A website built through Hugo and blogdown."
-    logo = "img/DS4E_logo_long.jpg"
+    logo = "img/DS4E_logo2.png"
     
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.10.0"
