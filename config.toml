@@ -11,6 +11,20 @@ publishDir = "docs/"
     post = "/:year/:month/:day/:slug/"
 
 
+[[menu.main]]
+    name = "Launch team"
+    identifier = "team"
+    url = "launch-team"
+    pre = "<i class='now-ui-icons users_single-02'></i>"
+    weight = 1
+[[menu.main]]
+    name = "Mission"
+    identifier = "mission"
+    url = "#page2"
+    pre = "<i class='now-ui-icons files_paper'></i>"
+    weight = 2
+
+
 [[menu.footer]]
     name = "contact us"
     identifier = "email"
@@ -31,7 +45,7 @@ publishDir = "docs/"
     custom_js = []
     date_format = "Mon, Jan 2, 2006"
     description = "A website built through Hugo and blogdown."
-    logo = "img/DS4E_logo2.png"
+    logo = "img/DS4E-Logo-Lockup-White.png"
     
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.10.0"
