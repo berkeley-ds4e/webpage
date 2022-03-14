@@ -1,6 +1,5 @@
 ---
 title: Launch Team
-layout: plain
 ---
 
 
