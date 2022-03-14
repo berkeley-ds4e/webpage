@@ -1,35 +1,36 @@
 ---
-background: "img/parrot.jpg"
 title: Launch Team
+layout: plain
 ---
+
 
 ## Douglas McCauley
 
-{{< figure src="img/people/doug_mccauley.jpg"  width="200" >}}
+{{< figure src="../img/people/doug_mccauley.jpg"  width="200" >}}
 
 Douglas McCauley is an Associate Adjunct Professor in the Department of
 [Environmental Science, Policy and
 Management](http://ourenvironment.berkeley.edu/) at [UC
 Berkeley](http://www.berkeley.edu/) and an Associate Professor in the
-[[Department of Ecology, Evolution and Marine
-Biology]{.underline}](https://www.eemb.ucsb.edu/) at [[UC Santa
-Barbara]{.underline}](https://www.ucsb.edu/). Doug is an ecologist and
+[Department of Ecology, Evolution and Marine
+Biology](https://www.eemb.ucsb.edu/) at [UC Santa
+Barbara](https://www.ucsb.edu/). Doug is an ecologist and
 conservation biologist that uses a diverse suite of methods to better
 understand how nature works and to create new applied research tools to
 better manage and conserve biodiversity. His research often involves
 leveraging the power of new technologies and insight from data science
 to address complex environmental problems and bring together the diverse
 stakeholders needed to effectively implement these solutions. Doug leads
-the [[Benioff Ocean Initiative]{.underline}](https://boi.ucsb.edu/) at
+the [Benioff Ocean Initiative](https://boi.ucsb.edu/) at
 UC Santa Barbara. He was named a Sloan Research Fellow in the Ocean
-Sciences and he serves on the [[World Economic Forum's Friends of Ocean
-Action]{.underline}](https://www.weforum.org/friends-of-ocean-action)
+Sciences and he serves on the [World Economic Forum's Friends of Ocean
+Action](https://www.weforum.org/friends-of-ocean-action)
 leadership team.
 
 
 ## Fernando Pérez
 
-{{< figure src="img/people/fernando_perez.jpg"  width="200" >}}
+{{< figure src="../img/people/fernando_perez.jpg"  width="200" >}}
 
 Fernando Pérez (@fperez_org) is an Associate Professor in Statistics at UC Berkeley and scientist at LBNL. He builds open source tools for humans to use computers as companions in thinking and collaboration, mostly in the scientific Python ecosystem (IPython, Jupyter & friends). A computational physicist by training, his research interests include questions at the nexus of software and geoscience, seeking to build the computational and data ecosystem to tackle problems like climate change with collaborative, open, reproducible, and extensible scientific practices. He is a co-founder of Project Jupyter, the 2i2c.org initiative, the Berkeley Institute for Data Science and the NumFOCUS Foundation. He is a recipient of the 2017 ACM Software System Award and the 2012 FSF Award for the Advancement of Free Software.
 
@@ -37,7 +38,7 @@ Fernando Pérez (@fperez_org) is an Associate Professor in Statistics at UC Berk
 
 ## Justin Brashares
 
-{{< figure src="img/people/justin_brashares.jpg"  width="200" >}}
+{{< figure src="../img/people/justin_brashares.jpg"  width="200" >}}
 
 Justin Brashares is the G.R. & W.M. Goertz Professor in UC Berkeley\'s
 Department of Environmental Science, Policy and Management. Justin's
@@ -53,7 +54,7 @@ conservation of ecosystems and the services they provide us.
 
 ## Carl Boettiger
 
-{{< figure src="img/people/carl_boettiger.png"  width="200" >}}
+{{< figure src="../img/people/carl_boettiger.png"  width="200" >}}
 
 Carl Boettiger is an Assistant Professor in the Department of
 [Environmental Science, Policy and
@@ -77,17 +78,17 @@ approach blends ecological theory with the synthesis of heterogeneous
 data and the development of software -- a combination now recognized as
 data science.
 
-Carl is a co-founder of the [[rOpenSci
-project]{.underline}](https://ropensci.org/), a senior fellow at
-[[BIDS]{.underline}](http://bids.berkeley.edu/), and a science adviser
-to [[NCEAS]{.underline}](http://nceas.ucsb.edu/), reflecting his
+Carl is a co-founder of the [rOpenSci
+project](https://ropensci.org/), a senior fellow at
+[BIDS](http://bids.berkeley.edu/), and a science adviser
+to [NCEAS](http://nceas.ucsb.edu/), reflecting his
 interests in open science, data science, and ecoinformatics.
 
 ## Stacey Dorton
 
 Administrative Manager
 
-{{< figure src="img/people/stacey_dorton.png"  width="200" >}}
+{{< figure src="../img/people/stacey_dorton.png"  width="200" >}}
 
 Stacey Dorton is the Administrative Manager for DS4E, serving as our
 Office Jedi. She is an administrative professional with 25 years'
@@ -102,7 +103,7 @@ Berkeley (class of '95) majoring in women's studies. GO BEARS!
 
 ## Paolo D'Odorico
 
-{{< figure src="img/people/paolo_dodorico.jpg"  width="200" >}}
+{{< figure src="../img/people/paolo_dodorico.jpg"  width="200" >}}
 
 Paolo D'Odorico is a Professor in the Department of [Environmental
 Science, Policy and Management](http://ourenvironment.berkeley.edu/) at
@@ -127,7 +128,7 @@ resilience, environmental stewardship, and food security.
 
 ## Sandrine Dudoit
 
-{{< figure src="img/people/sandrine_dudoit.jpg"  width="200" >}}
+{{< figure src="../img/people/sandrine_dudoit.jpg"  width="200" >}}
 
 Professor and Chair, Department of Statistics, UC Berkeley
 
@@ -186,12 +187,12 @@ microarray gene expression data.
 
 ## Joey Gonzalez
 
-{{< figure src="img/people/joey_gonzalez.jpg"  width="200" >}}
+{{< figure src="../img/people/joey_gonzalez.jpg"  width="200" >}}
 
-Joseph is a Professor in the [[EECS
-department]{.underline}](http://www.eecs.berkeley.edu) at UC Berkeley, a
-co-director and founding member of the UC Berkeley [[RISE
-Lab]{.underline}](http://rise.cs.berkeley.edu) and a member of the
+Joseph is a Professor in the [EECS
+department](http://www.eecs.berkeley.edu) at UC Berkeley, a
+co-director and founding member of the UC Berkeley [RISE
+Lab](http://rise.cs.berkeley.edu) and a member of the
 Berkeley AI Research
 ([BAIR](https://people.eecs.berkeley.edu/~jegonzal/bair.berkeley.edu)
 Group). His [research
@@ -217,7 +218,7 @@ Information Systems (IGIS)
 
 Faculty Director, Geospatial Innovation Facility, UC Berkeley
 
-{{< figure src="img/people/maggi_kelly.png"  width="200" >}}
+{{< figure src="../img/people/maggi_kelly.png"  width="200" >}}
 
 Maggi Kelly is Professor and Cooperative Extension Specialist at the
 University of California, Berkeley in the Department of Environmental
@@ -237,7 +238,7 @@ ResearchScientist, Earth and Environmental Sciences, LBNL
 
 Research Affiliate, Berkeley Institute of Data Sciences
 
-{{< figure src="img/people/charu_varadharajan.png"  width="200" >}}
+{{< figure src="../img/people/charu_varadharajan.png"  width="200" >}}
 
 Charu is a scientist in the Earth and Environmental Sciences Area at
 Berkeley Lab and leads its Earth AI and data program. She has dedicated

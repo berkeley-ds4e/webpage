@@ -14,13 +14,13 @@ publishDir = "docs/"
 [[menu.main]]
     name = "Launch team"
     identifier = "team"
-    url = "launch-team"
+    url = "/launch-team"
     pre = "<i class='now-ui-icons users_single-02'></i>"
     weight = 1
 [[menu.main]]
     name = "Mission"
     identifier = "mission"
-    url = "#page2"
+    url = "/#page2"
     pre = "<i class='now-ui-icons files_paper'></i>"
     weight = 2
 

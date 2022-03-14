@@ -1,19 +1,24 @@
-{{ define "title" }}
-<div class="container">
-  <div class="content-center">
-    <h1 class="title">{{ .Title }}</h1>
-    <div class="text-center">
-      {{with .Params.description }} {{ . | safeHTML }} {{ end }}
-    </div>
-  </div>
-</div>
-{{ end }}
+<!doctype html>
+<html lang="en">
+  {{partial "head" . }}
+	<body class="{{ .Params.class | default "profile-page" }} sidebar-collapse">
+    {{ partial "nav" . }}
+    <div class="{{ .Params.wrapper | default "wrapper" }}">
+        <div class="page-header-image" data-parallax="true"
+             style="background-image: url('{{ .Params.background }}');">
+        </div>
+        <div class="container">
+          <div class="content-center">
+              <div class="row">
+                  <div class="col-md-8 ml-auto mr-auto text-left">
+                  {{ .Content }}
+                  </div>   
+              </div>
+           </div>
+      </div>
 
-{{ define "body" }}
-<div class="row">
-  <div class="col-md-8 ml-auto mr-auto text-left">
-  {{ .Content }}
-  </div>   
-</div>
-{{ end }}        
- 
+      {{ partial "footer" . }}
+    </div>
+  </body>
+{{partial "javascript" . }}
+</html>
